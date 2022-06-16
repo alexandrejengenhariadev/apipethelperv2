@@ -33,6 +33,5 @@ Route.group(()=>{
   Route.resource("/estabelecimentos","EstabelecimentosController").apiOnly()
   Route.resource("/combos","CombosController").apiOnly()
   Route.resource("/doacaos","DoacaosController").apiOnly() 
- 
   
 }).prefix('/api')
