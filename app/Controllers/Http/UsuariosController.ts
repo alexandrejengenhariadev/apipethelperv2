@@ -5,7 +5,7 @@ import Usuario from 'App/Models/Usuario'
 
 
 export default class UsuariosController {
-    public async store({request, response}: HttpContextContract){
+   public async store({request, response}: HttpContextContract){
 
 
         const body = request.body()
@@ -54,3 +54,4 @@ export default class UsuariosController {
 }
 
 }
+ 

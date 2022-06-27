@@ -5,8 +5,7 @@ export default class Doacao extends BaseModel {
   @column({ isPrimary: true })
   public id: number
   @column()
-  public nome:string
- 
+  public nome:string 
   @column()
   public valor:number
 
