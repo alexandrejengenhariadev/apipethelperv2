@@ -8,6 +8,10 @@ export default class Doacao extends BaseModel {
   public nome:string 
   @column()
   public valor:number
+  @column()
+  public idOng:number
+  @column()
+  public controle:string
 
 
   @column.dateTime({ autoCreate: true })
